@@ -1,5 +1,4 @@
 body {
-	/*background-image: linear-gradient(#2274a5, #E9f1f7, #FFFFFF);*/
 	background-repeat: no-repeat;
 	font-family: 'Trebuchet MS';
 	text-align: center;
@@ -21,7 +20,6 @@ body {
 	background: #00aec2;
 	text-align: left;
 	min-width: 260px;
-	/*grid-row: 2/span 4;*/
 }
 
 .leftheaders {
