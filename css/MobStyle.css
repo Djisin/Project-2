@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px){
+	body{
+		max-width: 768px;
+		
+		}
+		
+		#mainpicture img{
+		height: 150px;
+		border:box;
+		border-radius: 50%;
+		margin-bottom: 20px;
+		}
+		
+		#namebox {
+		text-align: center;
+		padding: 10px;
+		}
+		
+	.mcontainer{
+		display: flex;
+		flex-direction: column;
+	}
+	.time-period p{
+		float:left;
+		/*padding-left: 5px;*/
+		padding-right:10px;
+	}
+	
+	.time-period img{
+	height: 15px;
+	padding-right: 5px;
+	padding-top:2px;
+	}
+	
+	.rightcontent{
+		display: flex;
+		flex-direction: column;
+		padding-right:5px;
+		padding-left:5px;
+	}
+	
+}

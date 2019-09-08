@@ -1,0 +1,146 @@
+body {
+	/*background-image: linear-gradient(#2274a5, #E9f1f7, #FFFFFF);*/
+	background-repeat: no-repeat;
+	font-family: 'Trebuchet MS';
+	text-align: center;
+	box-sizing: border-box;
+	max-width: 1024px;
+	margin: auto;
+	
+}
+
+.mcontainer {
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	grid-template-rows: auto;
+	grid-auto-rows: auto;
+	
+}	
+
+.leftcontainer {
+	background: #00aec2;
+	text-align: left;
+	min-width: 260px;
+	/*grid-row: 2/span 4;*/
+}
+
+.leftheaders {
+	text-transform: uppercase;
+	background: #CCCCCC;
+	text-align: center;
+}
+
+.rightcontainer{
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 5px;
+	min-width:250px;
+}
+
+.rightheaders{
+	text-transform: uppercase;	
+}
+
+.rightcontent{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: auto;
+	grid-auto-rows:auto;
+}
+
+.rightcontent ul li{
+	font-size:14px;
+}
+#references{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	font-size:14px;
+	padding: 10px;
+}
+#references div{
+	min-width:215px;
+}
+
+#mainpicture img{
+	height: 200px;
+	margin-top:20px;
+	border-radius: 50%;	
+}
+
+#mainpicture{
+	background: #00aec2;
+}
+
+#namebox {
+	text-align: left;
+	padding: 50px;
+}
+
+.notopmargin{
+	margin-top:0;
+}
+.justifyp{
+	text-align:justify;
+	padding: 15px;
+	padding-top:0;
+}
+
+/*Font Awesome .svg icons - START*/
+#contact i{
+	padding-right: 15px;
+	padding-left: 20px;
+	float: left;
+	font-size:38px;
+	color: #ffffff;
+}
+
+.rightcontainer i{
+	font-size:38px;
+	float: left;
+	padding-top: 15px;
+	padding-right:15px;
+	color: teal;
+}
+
+#address{
+	padding-top:10px;
+}
+
+.time-period i{
+	font-size: 15px;
+	padding-right: 8px;
+	padding-top:2px;
+	float:left;
+}
+
+.time-period{
+	padding-right: 5px;
+	min-width:150px;
+}
+/*Font Awesome .svg icons - END*/
+
+#language img{
+	height: 50px;
+	padding:15px;
+}
+#language img:hover{
+	background-image: radial-gradient(#2274a5, #E9f1f7, #FFFFFF);
+	/*background-color:white;*/
+	opacity:0.8;
+	transition:0.2s;
+	border-radius:50%;
+}
+
+#language{
+	text-align:center;
+}
+
+#hobbies i{
+	font-size:38px;
+	padding:10px;
+}
+
+#hobbies{
+	text-align:center;
+}
